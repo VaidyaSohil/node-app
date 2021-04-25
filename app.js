@@ -7,6 +7,8 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
+let users = 0;
+
 //io.on('connection', function (socket) {
 //  console.log('a user connected');
 //  socket.on('disconnect', () => {
